@@ -1,0 +1,246 @@
+/*页面通用样式*/
+body{
+  font:12px "微软雅黑",Arial,Helvetica,sans-serif;
+  color:#666;
+  margin:0 auto;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+a{
+  color:#666;
+  text-decoration:none;
+}
+a:hover{
+  color:#FD6E3A;
+  text-decoration:none;
+}
+/*页面主体*/
+#main-list,#plist,.navbar{
+  width:1100px;
+  margin: 10px auto;
+}
+#main-list>p{
+  margin:10px 0;
+  box-sizing: border-box;
+}
+#category>div{
+  width:1100px;
+  border:1px solid #ddd;
+  height:40px;
+  line-height:40px;
+  padding:5px;
+  box-sizing: border-box;
+}
+#category>div:first-child{
+  background:#E4E4E4;
+}
+#category>div i{
+  font-style: normal;
+  display: inline-block;
+}
+#category>div.line1 i{
+  height: 25px;
+  width:61px;
+  background:#fff;
+  text-align:center;
+  line-height:25px;
+  padding-left:10px;
+}
+#category>div.line1 b{
+  display:inline-block;
+  text-align:center;
+  width:25px;
+  height:25px;
+  vertical-align: middle;
+  font-size:20px;
+  background: #c0c0c0;
+}
+#category span{
+  float:left;
+  margin:0 10px;
+  text-align: right;
+  width:36px;
+  color:#ADA59F;
+  display: inline-block;
+}
+#category li{
+  float:left;
+  padding-right:10px;
+}
+/*列表导航*/
+.navbar{
+  height:30px;
+  border:1px solid #EAEAEA;
+  background:#e4e4e4;
+  width:1100px;
+  box-sizing: border-box;
+  line-height: 30px;
+}
+.navbar ul{
+  /*padding:5px;*/
+  box-sizing: border-box;
+  margin:0 20px;
+  text-align: center;
+}
+.navbar li{
+  float:left;
+  width:150px;
+}
+.navbar li a{
+  display: inline-block;
+  width:100px;
+  text-align: center;
+  font-size: 14px;
+}
+.navbar li a:hover{
+  background:#FF4400;
+  color:#fff;
+}
+.navbar li input{
+  width:40px;
+}
+/*列表顶部*/
+#plist ul{
+  width:100%;
+}
+#plist ul li{
+  height:250px;
+  width:25%;
+  box-sizing: border-box;
+  text-align: center;
+  float:left;
+  border:1px solid transparent;
+  margin-bottom:10px;
+}
+#plist li:hover{
+  border:1px solid #ddd;
+  box-shadow:2px 2px #eee;
+  /*padding:-1px;*/
+}
+#plist li img{
+  display: block;
+  margin:0 auto;
+  width:170px;
+  height:170px;
+}
+#plist span{
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom:5px;
+}
+#plist b {
+  font-size: 18px;
+  color: #FF4400;
+  padding-right: 20px;
+}
+#plist .addcar{
+  display:inline-block;
+  position:relative;
+  width:100px;
+  height:30px;
+  line-height:30px;
+}
+#plist .addcar i{
+  position:absolute;
+  top:5px;
+  right:85px;
+  width:22px;
+  height:22px;
+  background:url(../imgs/sprite.png) no-repeat 0 -108px;
+}
+
+/*分页*/
+.pager {
+  margin: 15px;
+  float:right;
+}
+.pager li {
+  display: inline-block;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  padding: 9px 13px;
+}
+.pager li.active {
+  border: 1px solid transparent;
+  background: transparent;
+}
+.pager li.active a {
+  color: #e4393c;
+  cursor: default;
+}
+.pager {
+   margin: 15px auto 0;
+ }
+.pager li {
+  display: inline-block;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  padding: 9px 13px;
+}
+.pager li.active {
+  border: 1px solid transparent;
+  background: transparent;
+}
+.pager li.active a {
+  color: #e4393c;
+  cursor: default;
+}
+
+/*模态框*/
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0,0,0, .7);
+  z-index: 999;
+  display: none;
+}
+.modal-dialog {
+  width: 370px;
+  margin: auto;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.modal-content {
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #aaa;
+  padding: 16px 12px;
+  text-align: center;
+}
+.modal-content p{
+  font-size:20px;
+  padding-bottom: 30px;
+}
+.modal-content a{
+  font-size:14px;
+  margin:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

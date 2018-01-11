@@ -1,0 +1,128 @@
+#cart
+{
+  border: 1px solid #f1f1f1;
+  border-top:2px solid #E95609;
+  width:1000px;
+  background-color: #F3F3F3;
+  margin:0 auto;
+  margin-top:50px;
+  border-collapse: collapse;
+}
+#cart td,#cart th{
+  min-height:40px;
+  line-height:40px;
+  border-top:1px solid #f1f1f1;
+  border-bottom:1px solid #f1f1f1;
+  padding:5px;
+  vertical-align: top;
+  text-align: center;
+}
+#cart td,#cart th:first-child{
+  text-align: left;
+}
+#cart thead input{
+  vertical-align: middle;
+}
+#cart tbody input:first-child{
+  float:left;
+  margin-right: 10px;
+}
+#cart tbody div{
+  border:1px solid #f1f1f1;
+  padding:5px;
+  float:left;
+  width:90px;
+  height:80px;
+  text-align: center;
+}
+#cart tbody img {
+  width:90%;
+}
+#cart a
+{
+  text-decoration:none;
+  color:#666;
+}
+#cart a:hover
+{
+  color:#E4393C;
+}
+#cart tbody td span{
+  font-weight: bold;
+}
+#cart tbody tr{
+  border-bottom:1px solid #000;
+}
+#cart tbody td{
+  text-align: center;
+}
+#cart tbody td:nth-child(4) input{
+  border:1px solid #CACBCB;
+  border-left:0;
+  border-right:0;
+  height:20px;
+  width:40px;
+  padding:0;
+  text-align: center;
+}
+#cart tbody td button{
+  border:1px solid #CACBCB;
+  height:20px;
+  width:20px;
+  padding:0;
+  background-color: #fff;
+  box-sizing:content-box;
+}
+#cart_footer{
+  position: fixed;
+  width:100%;
+  height:80px;
+  bottom:0px;
+  left:0px;
+  background-color: #fff;
+  box-shadow: 0 -1px 8px rgba(0,1,1,.08);
+  z-inxe:10000;
+}
+#cart_footer>div{
+  text-align: right;
+  margin:10px auto;
+  width:800px;
+  height:52px;
+  line-height: 52px;
+}
+#cart_footer>div>span{
+  font-size: 16px;
+  color: #e4393c;
+  font-weight: 700;
+}
+#cart_footer>div>button{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+  border:0;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "microsoft yahei";
+  margin-left:20px;
+  border-radius:5px;
+  background-image: linear-gradient(to bottom,#E96609,#E95609);
+}
+body{
+  overflow-x: hidden;
+}
+.shop_bottom{
+  width:800px;
+  margin:0 auto;
+}
+.shop_bottom .btn{
+  display:inline-block;
+  background:#F3F3F3;
+  color:#000;
+  padding:10px;
+  font-size:16px;
+  margin-top:10px;
+}

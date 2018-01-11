@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>快乐购注册</title>
+  <link rel="stylesheet" href="css/register.css">
+ </head>
+ <body>
+  <div id="top">
+		<span>您好！欢迎来到快乐购</span>
+		<ul class="rt">
+			<li><a href="#">我的快乐购</a></li>
+			<li>
+				<a href="#">新手上路</a>
+				<a href="#">客服</a>
+				<a href="#">帮助</a>
+			</li>
+			<li>
+				<a href="#">关注我们</a>
+				<b></b>  
+			</li>
+		</ul>
+  </div>
+  <header id="logo">
+		<b>|</b>
+		<b>会员注册</b>
+	</div>	
+  </header>
+  <!-- 登录主体 -->
+  <section id="section">
+	<!--左侧-->
+	<div class="left lf">
+		<form action="" id="register">
+			<div class="item">
+				<b>*用户名：</b>
+				<input type="text" class="uname" id="uname">
+				<i class="ficon"></i>
+				<span class="un hidden">请输入6~8位数字或字母</span>
+			</div>
+			<div class="item">
+				<b>*密码：</b>
+				<input type="password" class="upwd" id="upwd">
+				<i class="sicon"></i>
+				<span class="pw hidden">请输入6~18位数字或字母</span>
+			</div>
+			<div class="item">
+				<b>*确认密码：</b>
+				<input type="password" >
+				<i class="ticon"></i>
+				<span class="prompt hidden">请确认密码</span>
+			</div>
+			<div class="tel">
+				<div class="item">
+					<b>*手机号：</b>
+					<input type="text" class="uphone" id="uphone">
+					<i class="oicon"></i>
+					<span class="pho hidden">请输入手机号</span>
+				</div>
+				<div class="item">
+					<b>验证码：</b>
+					<input class="yanzheng">
+					<a href="#" class="ma">获取验证码</a>
+				</div>
+			</div>
+			<div>
+				<input type="checkbox" value="" id="agree">
+				<label for="agree">同意快乐购网服务协议</label>
+			</div>
+			<input type="button" value="立即注册" class="btn" id="btn-register">
+		</form>
+	</div>
+	<div class="right lf">
+		<h1>您已是快乐购会员</h1>
+		<a href="login.html" class="login">立即登录&gt;&gt;</a>
+		<p>无需注册，即可登录</p>
+		<ul>
+			<li>
+				<a href="#"><b></b>QQ登录</a>
+			</li>
+			<li>
+				<a href="#"><b></b>微博登录</a>
+			</li>
+			<li>
+				<a href="#"><b></b>支付宝登录</a>
+			</li>
+			<li>
+				<a href="#"><b></b>139邮箱登录</a>
+			</li>
+			<li>
+				<a href="#"><b></b>微信登录</a>
+			</li>
+		</ul>
+	</div>
+  </section>
+  <script src="js/jquery-1.11.3.js"></script>
+   <script src="js/register.js"></script> 
+ </body>
+</html>

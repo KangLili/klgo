@@ -1,0 +1,182 @@
+/*页面通用样式*/
+body{
+	font:12px "微软雅黑",Arial,Helvetica,sans-serif;
+	color:#666;
+	margin:0 auto;
+	width:1200px;
+	background:#F9F9F9;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#FD6E3A;
+	text-decoration:none;
+}
+/*灰色长条*/
+#top{
+	width:1200px;
+	height:30px;
+	background:#F5F5F5;
+	margin:0 auto;
+	padding:0 20px;
+	line-height:30px;
+}
+#top li{
+	float:left;
+	padding:0 10px;
+}
+#top li:nth-child(2){
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+#top li:last-child{
+	width:135px;
+}
+#top li:last-child b{
+	padding:2px 40px;
+	background:url(../imgs/shopin.png) no-repeat 0 -69px;
+}
+/*logo*/
+#logo{
+	width:299px;
+	height:60px;
+	margin:30px;
+	font-size:24px;
+	background:#fff url(../imgs/logo.png) no-repeat;
+	line-height:60px;
+	box-sizing:border-box;
+}
+#logo b:first-child{
+	padding-left:140px;
+}
+/*主体*/
+#section{
+	width:1000px;
+	height:300px;
+	outline:5px solid #F2F2F2;
+	margin:0 auto;
+	background:#fff;
+}
+/*左侧*/
+div.left{
+	width:550px;
+}
+h1{
+	margin-left:50px;
+	display:inline-block;
+	margin-top:20px;
+}
+p.alert{
+	margin-left:50px;
+	background: #F7642C;
+	color:#fff;
+	height:30px;
+	width:200px;
+	text-align: center;
+	line-height: 30px;
+	margin-top:10px;
+}
+div.left>a{
+	margin:25px 100px;
+	float:right;
+	color:#FF5010;
+}
+.left a{
+	text-decoration:underline;
+}
+#login{
+	margin:10px 0 0 85px;
+	border-right:1px solid #ddd;
+}
+#login input{
+	height:20px;
+	width:200px;
+	margin:15px 0;	
+}
+#login a,#login .btn{
+	margin-left:35px;
+}
+#login .btn{
+	height:30px;
+	background:#D83F05;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	border:none;
+	border-radius:4px;
+}
+
+/*右侧*/
+.right{
+	margin:50px 40px;
+}
+.right ul{
+	margin-top:10px;
+}
+.right li{
+	width:150px;
+	height:30px;
+	text-align:center;
+	margin:5px 0;
+	line-height:30px;
+}
+.right li a{
+	color:#fff;
+	display:inline-block;
+}
+.right li:first-child{
+	background:#1CADEC;
+}
+.right li:first-child b{
+	background:url(../imgs/tubiao.png) no-repeat 0 0;
+	padding:2.5px 10px;
+	margin-right:5px;
+}
+.right li:nth-child(2){
+	background:#FD282E;
+}
+.right li:nth-child(2) b{
+	background:url(../imgs/tubiao.png) no-repeat -22px 0;
+	padding:2px 10px;
+	margin-right:5px;
+}
+.right li:nth-child(3){
+	background:#F3A500;
+}
+.right li:nth-child(3) b{
+	background:url(../imgs/tubiao.png) no-repeat -47px 0;
+	padding:3.5px 10px;
+	margin-right:5px;
+}
+
+.right li:nth-child(4){
+	background:#0DC9F5;
+}
+.right li:nth-child(4) b{
+	background:url(../imgs/tubiao.png) no-repeat -71px 0;
+	padding:3px 11px;
+	margin-right:5px;
+	}
+
+ .right li:last-child {
+	background:#87CC5F;
+} 
+ .right li:last-child b{
+	background:url(../imgs/tubiao.png) no-repeat -96px 0;
+	padding:3px 13px;
+	margin-right:5px;
+} 
